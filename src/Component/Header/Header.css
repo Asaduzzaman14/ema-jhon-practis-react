@@ -1,0 +1,28 @@
+.navbar{
+    height:80px;
+    background: #344957;
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    
+    padding-left: 140px;
+    padding-right: 140px;
+}
+.navbar img{
+    height:70px;
+    width:70px;
+}
+.navbar li {
+    list-style: none;
+}
+.navitem{
+    display:flex
+}
+.navbar li a{
+    display:flex;
+    justify-content: center;
+    text-decoration: none;
+    display: inline-block;
+    color:#FFF;
+    padding:10px
+}
